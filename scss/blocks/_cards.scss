@@ -1,0 +1,40 @@
+.list-uz {
+  width: 50%;
+  height: 100vh;
+  padding: 0;
+}
+
+.list-en {
+  width: 50%;
+  height: 100vh;
+  padding: 0;
+}
+
+.card-check {
+  position: absolute;
+  border-radius: 50px;
+  top: 0;
+  left: 0;
+}
+
+.card-item {
+  position: relative;
+  padding: 10px 15px;
+  border-radius: 50px;
+  margin-bottom: 20px;
+  // background-color: #4d8;
+  // border-bottom: 7px solid #4d80e4;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -30px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  transition: all 0.5s linear;
+
+  &:hover {
+    box-shadow: rgba(46, 137, 240, 0.4) -5px 5px, rgba(46, 162, 240, 0.3) -10px 10px, rgba(46, 166, 240, 0.2) -15px 15px, rgba(46, 143, 240, 0.1) -20px 20px, rgba(46, 143, 240, 0.05) -25px 25px;
+  }
+}
+
+.caard-text {
+  margin: 0;
+  text-align: center;
+  font-size: 30px;
+  color: #fff;
+}
