@@ -196,7 +196,6 @@ function yutishEn(list,id) {
         }
         
         constPoint.textContent = `Coint: ${++count}`
-        uzId = null
         check.style.width = '100%'
         check.style.height = '100%'
         check.style.backgroundColor = '#21c62c8d'
