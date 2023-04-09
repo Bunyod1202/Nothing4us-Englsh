@@ -1,103 +1,96 @@
 let beginner = [
     {
         id:1,
-        uz_title: "Salom",
-        eng_title: "Hello",
-        uz_color: "#949398FF",
-        uz_text_color:"#F4DF4EFF",
-        eng_color: "#FC766AFF",
-        eng_text_color:"#5B84B1FF",
-    
-    },
-    {
-        id:2,
         uz_title: "Manzil",
         eng_title: "Address",
         uz_color: "#5F4B8BFF",
         uz_text_color:"#E69A8DFF",
         eng_color: "#42EADDFF",
         eng_text_color:"#CDB599FF",
- 
+
     },
     {
-        id:3,
+        id:2,
         uz_title: "Shahar",
         eng_title: "City",
         uz_color: "#000000FF",
         uz_text_color:"#FFFFFFFF",
         eng_color: "#00A4CCFF",
         eng_text_color:"#F95700FF",
-      
     },
     {
-        id:4,
-        uz_title: "Mehmonxona",
-        eng_title: "Hotel",
-        uz_color: "#00203FFF",
-        uz_text_color:"#ADEFD1FF",
-        eng_color: "#606060FF",
-        eng_text_color:"#D6ED17FF",
-    
-    },
-    {
-        id:5,
+        id:3,
         uz_title: "Raqam",
         eng_title: "Number",
         uz_color: "#2C5F2D",
         uz_text_color:"#97BC62FF",
         eng_color: "#00539CFF",
         eng_text_color:"#EEA47FFF",
- 
+
     },
     {
-        id:6,
+        id:4,
         uz_title: "Kun",
         eng_title: "Day",
         uz_color: "#0063B2FF",
         uz_text_color:"#9CC3D5FF",
         eng_color: "#D198C5FF",
         eng_text_color:"#E0C568FF",
- 
     },
     {
-        id:7,
-        uz_title: "Ta'til",
-        eng_title: "Holiday",
-        uz_color: "#101820FF",
-        uz_text_color:"#FEE715FF",
-        eng_color: "#CBCE91FF",
-        eng_text_color:"#EA738DFF",
-   
-    },
-    {
-        id:8,
+        id:5,
         uz_title: "Mamlakat",
         eng_title: "Country",
         uz_color: "#B1624EFF",
         uz_text_color:"#5CC8D7FF",
         eng_color: "#89ABE3FF",
         eng_text_color:"#FCF6F5FF",
-  
+    },
+    {
+        id:6,
+        uz_title: "Xarita",
+        eng_title: "Map",
+        uz_color: "#990011FF",
+        uz_text_color:"#FCF6F5FF",
+        eng_color: "#435E55FF",
+        eng_text_color:"#D64161FF",
+    },
+    {
+        id:7,
+        uz_title: "Uchrashuv",
+        eng_title: "Meeting",
+        uz_color: "#CBCE91FF",
+        uz_text_color:"#76528BFF",
+        eng_color: "#FAEBEFFF",
+        eng_text_color:"#333D79FF",
+    },
+    {
+        id:8,
+        uz_title: "Ism",
+        eng_title: "Name",
+        uz_color: "#F93822FF",
+        uz_text_color:"#FDD20EFF",
+        eng_color: "#F2EDD7FF",
+        eng_text_color:"#755139FF",
+
     },
     {
         id:9,
-        uz_title: "Sakkiz",
-        eng_title: "Eight",
-        uz_color: "#195190FF",
-        uz_text_color:"#A2A2A1FF",
-        eng_color: "#603F83FF",
-        eng_text_color:"#C7D3D4FF",
-     
+        uz_title: "Nima",
+        eng_title: "What",
+        uz_color: "#006B38FF",
+        uz_text_color:"#101820FF",
+        eng_color: "#FFD662FF",
+        eng_text_color:"#00539CFF",
     },
     {
         id:10,
-        uz_title: "Tanishtirmoq",
-        eng_title: "Introduce",
-        uz_color: "#2BAE66FF",
-        uz_text_color:"#FCF6F5FF",
-        eng_color: "#FAD0C9FF",
-        eng_text_color:"#6E6E6DFF",
-       
+        uz_title: "Olma",
+        eng_title: "Apple",
+        uz_color: "#00B1D2FF",
+        uz_text_color:"#FDDB27FF",
+        eng_color: "#E3C9CEFF",
+        eng_text_color:"#9FC131FF",
     },
  
 ];
