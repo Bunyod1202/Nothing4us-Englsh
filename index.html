@@ -1,28 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>English words world</title>
+		<link rel="stylesheet" href="./css/main.css" />
+	</head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Template</title>
-  <link rel="stylesheet" href="./css/main.css">
-</head>
+	<body class="site-body">
+		<header class="site-header header">
+			<div class="container"></div>
+		</header>
+		<main class="site-main">
+			<section class="hero"></section>
+		</main>
 
-<body class="site-body">
+		<div class="modal-cont">
+			<div class="modal-box">
+				<form class="login-box" id="loginModal">
+					<div>
+						<h2 class="animate-charcter">Welcome to booba</h2>
+						<p class="animate-charcter">Learn today – Lead tomorrow</p>
+					</div>
+					<div class="img-wrapper">
+						<div class="preview">
+							<input
+								class="visually-hidden input-img"
+								type="file"
+								id="image_uploads"
+								name="image_uploads"
+								accept=".jpg, .jpeg, .png" />
+							<label class="image_uploads" for="image_uploads">
+								<img src="./img/profile.png" class="profile-img" alt="img" />
+							</label>
+						</div>
+					</div>
+					<label class="text"
+						>Username
+						<input
+							type="text"
+							name="username"
+							class="username"
+							placeholder="username"
+							required />
+					</label>
 
-  <header class="site-header header">
-    <div class="container">
-    </div>
-  </header>
-  <main class="site-main">
-    <section class="hero">
-    </section>
-  </main>
+					<button class="login-button">Login</button>
+				</form>
+			</div>
+		</div>
 
-  <div class="modal"></div>
-
-  <script src="./js/main.js"></script>
-</body>
-
+		<script src="./js/main.js"></script>
+	</body>
 </html>
