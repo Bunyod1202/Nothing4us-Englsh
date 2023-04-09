@@ -6,7 +6,7 @@ let beginner = [
         uz_color: "#5F4B8BFF",
         uz_text_color:"#E69A8DFF",
         eng_color: "#42EADDFF",
-        eng_text_color:"#CDB599FF",
+        eng_text_color:"#A13941FF",
 
     },
     {
@@ -103,7 +103,7 @@ let intermed = [
         uz_color: "#00239CFF",
         uz_text_color:"#E10600FF",
         eng_color: "#FC766AFF",
-        eng_text_color:"#B0B8B4FF",
+        eng_text_color:"#000000FF",
  
     },
     {
@@ -111,7 +111,7 @@ let intermed = [
         uz_title: "Ammo",
         eng_title: "But",
         uz_color: "#FFA351FF",
-        uz_text_color:"#FFBE7BFF",
+        uz_text_color:"#5F4B8BFF",
         eng_color: "#2BAE66FF",
         eng_text_color:"#FCF6F5FF",
 
@@ -181,7 +181,7 @@ let intermed = [
         uz_title: "Uslub",
         eng_title: "Style",
         uz_color: "#BD7F37FF",
-        uz_text_color:"#A13941FF",
+        uz_text_color:"#fff",
         eng_color: "#E3C9CEFF",
         eng_text_color:"#9FC131FF",
     
@@ -205,7 +205,7 @@ let upper = [
         uz_title: "Bo'ronli",
         eng_title: "Stormy",
         uz_color: "#CBCE91FF",
-        uz_text_color:"#EA738DFF",
+        uz_text_color:"#000",
         eng_color: "#B1624EFF",
         eng_text_color:"#5CC8D7FF",
       
