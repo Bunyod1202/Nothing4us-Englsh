@@ -1,0 +1,349 @@
+.safe {
+    padding-bottom: 160px;
+}
+
+.safe-wrapper {
+
+    background-color: var(--main-box-color);
+  background-image: url("../images/car-rental.png");
+
+    background-color: transparent;
+  background-image: url("../../images/car-rental.png");
+
+  background-position: calc(50% + 350px) calc(20% + 10px);
+  background-size: 400px, 452px;
+  background-repeat: no-repeat;
+  
+}
+
+.safe-wrapper__inner {
+    padding: 40px 32px 32px 32px;
+    border: 1.5px solid #E5E7EA;
+    border-radius: 20px;
+}
+
+.safe-wrapper__rental {
+    max-width: 590px;
+    width: 100%;
+    margin-bottom: 90px;
+
+}
+
+.safe-wrapper__title {
+ @include typography-styles(normal,36px,44px,600,left);
+ color: var(--main-text-color);
+ margin: 0;
+ margin-bottom: 10px;
+
+}
+.safe-wrapper__text {
+@include typography-styles(normal,16px,24px,400,left);
+color: var(--main-info-color);
+margin: 0;
+
+}
+
+.safe-wrapper__list {
+    @include list-unstyle;
+    @include flexbox(start,start,row)
+}
+.body--dark {
+    .safe-wrapper__item {
+        &:nth-child(1)::after {
+            background-image: url("../../images/icons/every-icon.svg");
+        }
+        &:nth-child(2)::after {
+            content: "";
+            background-image: url("../../images/icons/heart-hover.svg");
+        }
+        &:nth-child(3)::after {
+            background-image: url("../../images/icons/westay-icon.svg");
+        }
+    }
+}
+.safe-wrapper__item {
+    position: relative;
+    width: 100%;
+    max-width: 200px;
+    height: 160px;
+    margin: 0;
+    padding: 79px 15px 15px 15px;
+    background-color: var(--darkmodbtn-card-bg-color);
+    border-radius: 16px;
+    &:hover {
+        background-color: var(--btn-bg-color);
+        .safe-wrapper__text-every {
+            color: #fff;
+        }
+        &:nth-child(1)::after {
+            background-image: url("../../images/icons/every-icon.svg");
+        }
+        &:nth-child(2)::after {
+            content: "";
+            background-image: url("../../images/icons/heart-hover.svg");
+        }
+        &:nth-child(3)::after {
+            background-image: url("../../images/icons/westay-icon.svg");
+        }
+    }
+    &:nth-child(1)::after {
+        content: "";
+        width: 30px;
+        height: 30px;
+        position: absolute;
+        background-image: url("../images/icons/cleaned-light.svg");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        top: 20px;
+        right: 20px;
+    }
+
+    &:nth-child(1){
+        @include flexbox(end,flex-end,column);
+       
+    }
+    &:nth-child(2){
+        @include flexbox(end,flex-end,column);
+       
+    }
+
+    &:nth-child(3){
+        @include flexbox(end,flex-end,column);
+       
+    }
+
+    &:nth-child(2)::after {
+        content: "";
+        width: 30px;
+        height: 30px;
+        position: absolute;
+        background-image: url("../../images/icons/heart-default.svg");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        top: 20px;
+        right: 20px;
+
+    }
+
+    &:nth-child(3)::after {
+        content: "";
+        width: 30px;
+        height: 30px;
+        position: absolute;
+        background-image: url("../../images/icons/cdc-lock.svg");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        top: 20px;
+        right: 20px;
+
+    }
+
+    &:not(:last-child) {
+        margin-right: 10px;
+    }
+}
+
+
+.safe-wrapper__every {
+    width: 170px;
+    margin: 0;
+
+}
+
+.safe-wrapper__text-every {
+    @include typography-styles(normal,16px,22px,500,left);
+    color: var(--main-text-color);
+    margin: 0;
+    padding: 0;
+
+}
+
+
+
+
+
+@include desktop-first(1260px) {
+    .safe {
+        padding-bottom: 120px;
+    }
+    
+    .safe-wrapper {
+      background-image: url("../images/car-rental.png");
+      background-position: calc(50% + 390px) calc(91% + 10px);
+      background-size: 284px, 370px;
+      background-repeat: no-repeat;
+      
+    }
+    
+    .safe-wrapper__inner {
+        padding: 30px 10px 30px 24px;
+      
+    }
+    .safe-wrapper__rental {
+        max-width: 467px;
+        width: 100%;
+        margin-bottom: 90px;
+    
+    }
+    
+    .safe-wrapper__title {
+     @include typography-styles(normal,36px,44px,600,left);
+     color: var(--main-text-color);
+     margin: 0;
+     margin-bottom: 10px;
+    
+    }
+
+    .safe-wrapper__item {
+        position: relative;
+        width: 100%;
+        max-width: 140px;
+        height: 160px;
+        padding: 69px 10px 10px 10px;
+    }
+
+    .safe-wrapper__every {
+        width: 100%;
+        max-width: 170px;
+    
+    }
+};
+
+
+@include desktop-first(1160px) {
+    .safe {
+        padding-bottom: 120px;
+    }
+    
+    .safe-wrapper {
+      background-image: url("../images/car-rental.png");
+      background-position: calc(50% + 300px) calc(91% + 10px);
+      background-size: 284px, 370px;
+      background-repeat: no-repeat;
+      
+    }
+
+}
+
+
+
+
+@include desktop-first(835px) {
+    .safe {
+        padding-bottom: 100px;
+    }
+    
+    .safe-wrapper {
+      background-image: url("../../images/green-border.png");
+      background-position: right top;
+      background-size: 160px;
+      background-repeat: no-repeat;
+      border-radius: 20px;
+      
+    }
+
+    .safe-wrapper__inner {
+        padding: 24px 20px 24px 20px;
+      
+    }
+
+    .safe-wrapper__title-wrap {
+        width: 100%;
+        max-width: 300px;
+    }
+
+    .safe-wrapper__rental {
+        max-width: 400px;
+        width: 100%;
+        margin-bottom: 40px;
+    
+    }
+    
+   .safe-wrapper__title-wrap {
+    max-width: 183px;
+    width: 100%;
+   }
+    
+.safe-wrapper__title {
+    @include typography-styles(normal,24px,29px,600,left);
+    color: var(--main-text-color);
+    margin: 0;
+    margin-bottom: 6px;
+   
+   }
+
+   .safe-wrapper__text {
+   @include typography-styles(normal,12px,20px,400,left);
+   color: var(--main-info-color);
+   margin: 0;
+   
+   }
+
+   .safe-wrapper__list {
+    @include list-unstyle;
+    @include flexbox(block,center,column)
+}
+
+.safe-wrapper__item {
+    width: 100%;
+    max-width: 320px;
+    height: 110px;
+    padding: 65px 14px 14px 10px;
+    margin-bottom: 10px;
+
+    &:not(:last-child) {
+        margin-right: 0px;
+    }
+
+}
+
+.safe-wrapper__every {
+    width: 100%;
+    max-width: 300px;
+
+}
+
+
+.safe-wrapper__text-every {
+    @include typography-styles(normal,14px,22px,500,left);
+    color: var(--main-text-color);
+    margin: 0;
+    padding: 0;
+
+
+}
+
+}
+
+
+
+@include desktop-first(576px) {
+    .safe {
+        padding-bottom: 100px;
+    }
+    
+    .safe-wrapper {
+      background-image: url("../../images/green-border.png");
+      background-size: 120px;
+      
+    }
+
+}
+
+
+@include desktop-first(500px) {
+    .safe {
+        padding-bottom: 100px;
+    }
+    
+    .safe-wrapper {
+      background-image: url("../../images/green-border.png");
+      background-size: 80px;
+      
+    }
+
+}
+
