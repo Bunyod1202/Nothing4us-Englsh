@@ -183,12 +183,10 @@ function yutishEn(list,id) {
 
         
       if (listId === uzId) {
-        alert('urraaaaaaaa')
         for (let i = 0; i < 10; i++) {
           const uzCheck = elListUZ.childNodes[i].childNodes[0]
           if (uzCheck.dataset.cardid === listId) {
             const uzCheckBox = uzCheck.parentNode.childNodes[1]
-            console.log(uzCheckBox);
             uzCheckBox.style.width = '100%'
             uzCheckBox.style.height = '100%'
             uzCheckBox.style.backgroundColor = '#21c62c8d'
@@ -242,12 +240,11 @@ function yutishUz(list,id) {
 
 
       if (listId === enId) {
-        alert('urraaaaaaaa')
         for (let i = 0; i < 10; i++) {
           const uzCheck = elListEN.childNodes[i].childNodes[0]
           if (uzCheck.dataset.cardid === listId) {
             const uzCheckBox = uzCheck.parentNode.childNodes[1]
-            console.log(uzCheckBox);
+
             uzCheckBox.style.width = '100%'
             uzCheckBox.style.height = '100%'
             uzCheckBox.style.backgroundColor = '#21c62c8d'
