@@ -7,6 +7,7 @@ let beginner = [
         uz_text_color:"#E69A8DFF",
         eng_color: "#42EADDFF",
         eng_text_color:"#CDB599FF",
+
     },
     {
         id:2,
@@ -16,7 +17,6 @@ let beginner = [
         uz_text_color:"#FFFFFFFF",
         eng_color: "#00A4CCFF",
         eng_text_color:"#F95700FF",
-
     },
     {
         id:3,
@@ -26,6 +26,7 @@ let beginner = [
         uz_text_color:"#97BC62FF",
         eng_color: "#00539CFF",
         eng_text_color:"#EEA47FFF",
+
     },
     {
         id:4,
@@ -91,6 +92,7 @@ let beginner = [
         eng_color: "#E3C9CEFF",
         eng_text_color:"#9FC131FF",
     },
+ 
 ];
 
 let intermed = [
@@ -102,8 +104,7 @@ let intermed = [
         uz_text_color:"#E10600FF",
         eng_color: "#FC766AFF",
         eng_text_color:"#B0B8B4FF",
-        uz_trans: "rotate: 76deg",
-        eng_trans: "rotate: 9deg",
+ 
     },
     {
         id:2,
@@ -113,8 +114,7 @@ let intermed = [
         uz_text_color:"#FFBE7BFF",
         eng_color: "#2BAE66FF",
         eng_text_color:"#FCF6F5FF",
-        uz_trans: "rotate: 36deg",
-        eng_trans: "rotate: 92deg",
+
     },
     {
         id:3,
@@ -124,8 +124,7 @@ let intermed = [
         uz_text_color:"#6E6E6DFF",
         eng_color: "#2D2926FF",
         eng_text_color:"#E94B3CFF",
-        uz_trans: "rotate: 26deg",
-        eng_trans: "rotate: 12deg",
+     
     },
     {
         id:4,
@@ -135,8 +134,7 @@ let intermed = [
         uz_text_color:"#616247FF",
         eng_color: "#990011FF",
         eng_text_color:"#FCF6F5FF",
-        uz_trans: "rotate: 66deg",
-        eng_trans: "rotate: 32deg",
+      
     },
     {
         id:5,
@@ -146,8 +144,7 @@ let intermed = [
         uz_text_color:"#76528BFF",
         eng_color: "#FAEBEFFF",
         eng_text_color:"#333D79FF",
-        uz_trans: "rotate: 86deg",
-        eng_trans: "rotate: 42deg",
+    
     },
     {
         id:6,
@@ -157,8 +154,7 @@ let intermed = [
         uz_text_color:"#FDD20EFF",
         eng_color: "#F2EDD7FF",
         eng_text_color:"#755139FF",
-        uz_trans: "rotate: 36deg",
-        eng_trans: "rotate: 32deg",
+     
     },
     {
         id:7,
@@ -168,8 +164,7 @@ let intermed = [
         uz_text_color:"#00539CFF",
         eng_color: "#D7C49EFF",
         eng_text_color:"#343148FF",
-        uz_trans: "rotate: 11deg",
-        eng_trans: "rotate: 2deg",
+     
     },
     {
         id:8,
@@ -179,8 +174,7 @@ let intermed = [
         uz_text_color:"#2C5F2DFF",
         eng_color: "#00B1D2FF",
         eng_text_color:"#FDDB27FF",
-        uz_trans: "rotate: 0deg",
-        eng_trans: "rotate: -22deg",
+       
     },
     {
         id:9,
@@ -190,8 +184,7 @@ let intermed = [
         uz_text_color:"#A13941FF",
         eng_color: "#E3C9CEFF",
         eng_text_color:"#9FC131FF",
-        uz_trans: "rotate: 25deg",
-        eng_trans: "rotate: -12deg",
+    
     },
     {
         id:10,
@@ -201,8 +194,7 @@ let intermed = [
         uz_text_color:"#E10600FF",
         eng_color: "#949398FF",
         eng_text_color:"#F4DF4EFF",
-        uz_trans: "rotate: 29deg",
-        eng_trans: "rotate: 292deg",
+       
     },
     
 ];
@@ -216,8 +208,7 @@ let upper = [
         uz_text_color:"#EA738DFF",
         eng_color: "#B1624EFF",
         eng_text_color:"#5CC8D7FF",
-        uz_trans: "rotate: 39deg",
-        eng_trans: "rotate: 322deg",
+      
     },
     {
         id:2,
@@ -227,8 +218,7 @@ let upper = [
         uz_text_color:"#FCF6F5FF",
         eng_color: "#101820FF",
         eng_text_color:"#F2AA4CFF",
-        uz_trans: "rotate: 341deg",
-        eng_trans: "rotate: 32deg",
+     
     },
     {
         id:3,
@@ -238,8 +228,7 @@ let upper = [
         uz_text_color:"#A2A2A1FF",
         eng_color: "#603F83FF",
         eng_text_color:"#C7D3D4FF",
-        uz_trans: "rotate: 31deg",
-        eng_trans: "rotate: 44deg",
+      
     },
     {
         id:4,
@@ -249,8 +238,7 @@ let upper = [
         uz_text_color:"#FCF6F5FF",
         eng_color: "#FAD0C9FF",
         eng_text_color:"#6E6E6DFF",
-        uz_trans: "rotate: 270deg",
-        eng_trans: "rotate: 47deg",
+       
     },
     {
         id:5,
@@ -260,8 +248,7 @@ let upper = [
         uz_text_color:"#616247FF",
         eng_color: "#990011FF",
         eng_text_color:"#FCF6F5FF",
-        uz_trans: "rotate: 30deg",
-        eng_trans: "rotate: 11deg",
+       
     },
     {
         id:6,
@@ -271,8 +258,7 @@ let upper = [
         uz_text_color:"#D64161FF",
         eng_color: "#CBCE91FF",
         eng_text_color:"#76528BFF",
-        uz_trans: "rotate: 10deg",
-        eng_trans: "rotate: 331deg",
+     
     },
     {
         id:7,
@@ -282,8 +268,7 @@ let upper = [
         uz_text_color:"#333D79FF",
         eng_color: "#F93822FF",
         eng_text_color:"#FDD20EFF",
-        uz_trans: "rotate: 310deg",
-        eng_trans: "rotate: 331deg",
+      
     },
     {
         id:8,
@@ -293,8 +278,7 @@ let upper = [
         uz_text_color:"#755139FF",
         eng_color: "#FFD662FF",
         eng_text_color:"#00539CFF",
-        uz_trans: "rotate: 280deg",
-        eng_trans: "rotate: 31deg",
+     
     },
     {
         id:9,
@@ -304,8 +288,7 @@ let upper = [
         uz_text_color:"#343148FF",
         eng_color: "#DF6589FF",
         eng_text_color:"#3C1053FF",
-        uz_trans: "rotate: 350deg",
-        eng_trans: "rotate: 11deg",
+      
     },
     {
         id:10,
@@ -315,7 +298,6 @@ let upper = [
         uz_text_color:"#2C5F2DFF",
         eng_color: "#F1F4FFFF",
         eng_text_color:"#A2A2A1FF",
-        uz_trans: "rotate: 300deg",
-        eng_trans: "rotate: 55deg",
+     
     },
 ]
